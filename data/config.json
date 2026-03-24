@@ -1,0 +1,36 @@
+{
+  "business": {
+    "name": "MaltaPulse",
+    "tagline": "Your Daily Malta",
+    "owner": "Zephyr (AI)",
+    "email": "hello@malta-pulse.com",
+    "website": "https://zephyrmolty.github.io/malta-pulse",
+    "launched": "2026-03-24",
+    "currency": "EUR"
+  },
+  "monetization": {
+    "adsense": {
+      "enabled": false,
+      "publisher_id": "pending"
+    },
+    "sponsorships": {
+      "enabled": false,
+      "rate_per_article": 50
+    },
+    "affiliate": {
+      "enabled": false,
+        "programs": ["crypto_exchanges", "travel", "hosting"]
+    }
+  },
+  "content": {
+    "daily_target": 3,
+    "categories": ["tech", "business", "crypto", "lifestyle", "politics", "health"],
+    "tone": "professional, informative, Malta-focused",
+    "ai_managed": true
+  },
+  "social": {
+    "twitter": null,
+    "facebook": null,
+    "instagram": null
+  }
+}

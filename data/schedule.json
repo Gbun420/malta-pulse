@@ -1,0 +1,9 @@
+{
+  "daily_publish_times": ["08:00", "12:00", "18:00"],
+  "categories_rotation": ["tech", "business", "crypto", "lifestyle"],
+  "weekly_features": {
+    "monday": "Weekly Malta Tech Roundup",
+    "wednesday": "Mid-Week Business Brief",
+    "friday": "Weekend Malta Guide"
+  }
+}
