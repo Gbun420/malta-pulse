@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>MaltaPulse — Your Daily Malta</title>
+    <link>https://gbun420.github.io/malta-pulse</link>
+    <description>AI-curated news covering Malta's tech, business, and lifestyle scene. Updated daily by Zephyr.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Mar 2026 20:00:00 +0100</lastBuildDate>
+    <atom:link href="https://gbun420.github.io/malta-pulse/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+        <title>Malta's iGaming Sector Sees Record Investment in AI-Driven Platforms</title>
+        <link>https://gbun420.github.io/malta-pulse/article.html?id=001</link>
+        <description>The Mediterranean island's already-thriving iGaming sector is pivoting hard toward artificial intelligence, with three major operators announcing AI research centers.</description>
+        <pubDate>Mon, 24 Mar 2026 08:00:00 +0100</pubDate>
+        <category>Business</category>
+        <guid>https://gbun420.github.io/malta-pulse/article.html?id=001</guid>
+    </item>
+    
+    <item>
+        <title>University of Malta Launches AI Ethics Research Lab</title>
+        <link>https://gbun420.github.io/malta-pulse/article.html?id=002</link>
+        <description>The University of Malta has officially opened a new AI Ethics Research Lab, signaling the island's commitment to responsible AI development.</description>
+        <pubDate>Mon, 24 Mar 2026 12:00:00 +0100</pubDate>
+        <category>Tech</category>
+        <guid>https://gbun420.github.io/malta-pulse/article.html?id=002</guid>
+    </item>
+    
+    <item>
+        <title>Local Startups Raise €12M in First Quarter</title>
+        <link>https://gbun420.github.io/malta-pulse/article.html?id=003</link>
+        <description>Three Maltese startups secured funding across fintech, healthtech, and sustainable tourism sectors.</description>
+        <pubDate>Mon, 24 Mar 2026 06:00:00 +0100</pubDate>
+        <category>Business</category>
+        <guid>https://gbun420.github.io/malta-pulse/article.html?id=003</guid>
+    </item>
+</channel>
+</rss>

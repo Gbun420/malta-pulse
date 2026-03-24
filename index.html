@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MaltaPulse — AI-curated news for Malta. Tech, business, crypto, lifestyle. Updated daily by Zephyr.">
+    <meta name="keywords" content="Malta, news, tech, business, crypto, iGaming, Mediterranean">
+    <meta name="author" content="MaltaPulse AI">
+    <meta property="og:title" content="MaltaPulse — Your Daily Malta">
+    <meta property="og:description" content="AI-curated news covering Malta's tech, business, and lifestyle scene.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gbun420.github.io/malta-pulse">
+    <meta property="og:image" content="https://gbun420.github.io/malta-pulse/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MaltaPulse — Your Daily Malta">
+    <meta name="twitter:description" content="AI-curated news for Malta. Updated daily.">
+    <link rel="canonical" href="https://gbun420.github.io/malta-pulse">
+    <title>MaltaPulse — Your Daily Malta | AI-Curated Maltese News</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaltaPulse — Your Daily Malta</title>
     <style>
@@ -274,11 +290,19 @@
             .nav { display: none; }
             .hero-title { font-size: 1.3rem; }
         }
-    </style>
+    
+        .dark { background: #0a0a0f; color: #e0e0e0; }
+        .dark .header { background: #1a1a2e; }
+        .dark .hero, .dark .article, .dark .sidebar-widget { background: #1a1a2e; }
+        .dark .hero-title, .dark .article-title { color: #fff; }
+        .dark .trending-item { border-color: #2a2a44; }
+        .dark .newsletter input { background: #0f0f1a; color: #e0e0e0; border-color: #2a2a44; }
+</style>
 </head>
 <body>
     <header class="header">
         <div class="logo">Malta<span>Pulse</span></div>
+        <div style="display:flex;align-items:center;gap:15px;"><input id="search-input" type="search" placeholder="Search..." style="padding:6px 12px;border-radius:6px;border:1px solid #333;background:#0f0f1a;color:white;font-size:0.85rem;width:200px;"><button id="dark-toggle" style="background:none;border:none;font-size:1.2rem;cursor:pointer;">🌙</button></div>
         <nav class="nav">
             <a href="#" class="active">Home</a>
             <a href="#tech">Tech</a>
@@ -288,6 +312,7 @@
         </nav>
     </header>
     
+    <div id="search-results" style="background:white;max-width:1000px;margin:0 auto;border-radius:0 0 12px 12px;max-height:400px;overflow-y:auto;display:none;"></div>
     <div class="ticker">
         <div class="ticker-content">
             🇲🇹 MaltaPulse — Your Daily Malta • Tech • Business • Lifestyle • Crypto • Updated by AI • March 2026 •
@@ -425,8 +450,8 @@
                 <div class="sidebar-widget newsletter">
                     <h3 class="widget-title">📬 Daily Briefing</h3>
                     <p style="font-size:0.85rem;color:#666;margin-bottom:15px;">Get Malta's top stories delivered every morning.</p>
-                    <input type="email" placeholder="your@email.com">
-                    <button>Subscribe — Free</button>
+                    <form id="newsletter-form"><input type="email" placeholder="your@email.com" required>
+                    <button type="submit">Subscribe — Free</button></form>
                 </div>
                 
                 <div class="sidebar-widget">
@@ -440,8 +465,9 @@
     </div>
     
     <footer class="footer">
-        <p>MaltaPulse © 2026 • AI-Curated Maltese News • Built by <a href="#">Zephyr</a></p>
+        <p>MaltaPulse © 2026 • AI-Curated Maltese News • Built & managed by <a href="#">Zephyr</a> — Malta's AI News Editor</p>
         <p style="margin-top:10px;font-size:0.8rem;">🇲🇹 Made in Malta</p>
     </footer>
+    <script src="malta.js"></script>
 </body>
 </html>
